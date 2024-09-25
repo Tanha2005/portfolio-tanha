@@ -13,10 +13,6 @@
     /* width: 434px; */
     height: 100vh;
     font-family: "Inria Sans", sans-serif;
-    transition: transfrom 0.3s ease-in;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 .sidebar nav {
     padding: 42px;
@@ -227,10 +223,7 @@ p {
     .devpic {
         display: none;
     }
-    .intro,
-    .contactform,
-    .container {
-        margin: 8px;
+
     }
     /* .sidebar{
         transform: translate(-443px, 0px);
