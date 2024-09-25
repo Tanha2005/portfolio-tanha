@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
-*{
+* {
     padding: 0;
     margin: 0;
-
 }
-.container{
-display: flex;
+.container {
+    display: flex;
 }
-.sidebar{
+.sidebar {
     background-color: rgb(228, 225, 225);
     /* width: 434px; */
     height: 100vh;
     font-family: "Inria Sans", sans-serif;
-    transition: transfrom 0.3s ease-in ;
-position: absolute;
+    transition: transfrom 0.3s ease-in;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-.sidebar nav{
+.sidebar nav {
     padding: 42px;
 }
-.sidebar nav li{
+.sidebar nav li {
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
 }
-.sidebar nav li a{
+.sidebar nav li a {
     text-decoration: none;
     color: black;
 }
 
-.main{
+.main {
     /* background-color: aquamarine; */
     width: 90vw;
 }
-.infocontainer{
+.infocontainer {
     /* background-color: blue; */
     height: 55vh;
     width: 80vw;
@@ -42,207 +43,194 @@ position: absolute;
     display: flex;
     justify-content: space-around;
 }
-.hello{
-font-size: 3em;
-
+.hello {
+    font-size: 3em;
 }
-.name{
-font-size: 3em;
-font-weight: bold;
-font-family: "Inria Sans", sans-serif;
-
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Inria Sans", sans-serif;
 }
-.about{
-font-size: 2.5em;
-margin-bottom: 20px;
+.about {
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
-.moreabout{
+.moreabout {
     font-size: 2em;
     font-family: "Source Code Pro", monospace;
     font-weight: bolder;
 }
-.btn{
+.btn {
     margin-top: 25px;
     font-size: 16px;
 }
-.btn button{
-padding: 9px 14px;
-border-radius: 20px;
-color: white;
-background-color: brown;
-font-weight: bold;
-font-size: 2em;
-margin: 0 3px;
-cursor: pointer;
+.btn button {
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 3px;
+    cursor: pointer;
 }
 
-.btn button:hover{
-   background-color: white;
+.btn button:hover {
+    background-color: white;
     color: brown;
 }
-.btn1{
-padding: 8px 10px;
-border-radius: 20px;
-color: white;
-background-color: brown;
-font-weight: bold;
-font-size: 21px;
-margin: 7px 3px;
-cursor: pointer;
+.btn1 {
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 7px 3px;
+    cursor: pointer;
 }
-.btn1:hover{
+.btn1:hover {
     background-color: white;
-     color: brown;
- }
-.devinfo{
+    color: brown;
+}
+.devinfo {
     font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-/* margin-left: 90px; */
-font-family: "Source Code Pro", monospace;
-
+    /* margin-left: 90px; */
+    font-family: "Source Code Pro", monospace;
 }
-.devpic img{
+.devpic img {
     height: 55vh;
     padding-left: 50px;
 }
-.contactform{
+.contactform {
     font-family: "Source Code Pro", monospace;
     /* padding: 144px; */
     margin: 88px;
 }
-.contactform h1{
+.contactform h1 {
     font-family: "Inria Sans", sans-serif;
-/* padding: 12px 0; */
+    /* padding: 12px 0; */
 }
-.contactform form div{
+.contactform form div {
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
     /* margin-left: 23px; */
 }
-.contactform form div input{
+.contactform form div input {
     border-radius: 5px;
     margin: 6px 0;
     padding: 3px;
     /* width: 16vw; */
 }
-.contactform form{
-margin-right: 60px;
+.contactform form {
+    margin-right: 60px;
 }
 
-#emailHelp{
+#emailHelp {
     color: rgb(0, 0, 24);
     font-size: 12px;
     margin: 0 5px;
     padding: 3px 0 0 0;
 }
-#form-check{
-flex-direction: row;
+#form-check {
+    flex-direction: row;
 }
-#isclient{
-width: 24px;
-margin: 3px 0;
+#isclient {
+    width: 24px;
+    margin: 3px 0;
 }
-#bttn{
+#bttn {
     width: 120px;
     height: 25px;
 }
-.btn-sm{
+.btn-sm {
     font-size: 17px;
 }
-.blogcontainer{
-    margin:  88px;
+.blogcontainer {
+    margin: 88px;
     font-family: "Inria Sans", sans-serif;
-
-
 }
 
-h1{
+h1 {
     font-family: "Inria Sans", sans-serif;
-margin: 25px 0px;
+    margin: 25px 0px;
 }
-.blogitem{
+.blogitem {
     margin-top: 10px;
 }
-p{
+p {
     font-family: "Source Code Pro", monospace;
 }
-.intro{
+.intro {
     margin: 88px;
 }
-.intro h2{
+.intro h2 {
     font-family: "Inria Sans", sans-serif;
     margin: 12px;
-
 }
-.intro p{
+.intro p {
     font-family: "Source Code Pro", monospace;
     margin: 12px;
-
 }
-.skillcontainer{
-padding: 12px;
-
+.skillcontainer {
+    padding: 12px;
 }
-.skilitem{
+.skilitem {
     display: flex;
     font-weight: 700;
 }
-.skill{
+.skill {
     width: 265px;
     height: 6px;
     background-color: red;
     border: 2px solid black;
-
 }
-.hn{
+.hn {
     width: 265px;
     background-color: chartreuse;
 }
-.fifty{
+.fifty {
     width: 125px;
     background-color: blueviolet;
 }
-.t5{
+.t5 {
     width: 75px;
     background-color: chocolate;
 }
-.sidebarGo{
+.sidebarGo {
     transform: translate(-443px, 0px);
     position: absolute;
 }
-.ham{
+.ham {
     position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
 }
-.hamp{
+.hamp {
     margin-top: 12px;
     margin-left: 10px;
 }
-.crsp{
+.crsp {
     margin-left: 165px;
-margin-top: 12px;
+    margin-top: 12px;
 }
 
-@media ( max-width: 1510px){
-    *{
-        /* background-color: rgb(231, 180, 180); */
-    }
-    .btn button{
-        font-size: 12px;
-    }
-    .devinfo{
+@media (max-width: 1510px) {
+    .devinfo {
         font-size: 10px;
     }
-    .devpic{
+    .devpic {
         display: none;
     }
-    .intro, .contactform, .container{
-        margin:  8px;
+    .intro,
+    .contactform,
+    .container {
+        margin: 8px;
     }
     /* .sidebar{
         transform: translate(-443px, 0px);
